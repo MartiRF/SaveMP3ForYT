@@ -45,5 +45,8 @@ def Mover():
         fileMp3Route = "./audioMp4/" + mp3
         shutil.move(fileMp3Route, 'mp3/')
     print('TODO CORRECTO, files listos /mp3/')
-        
-Menu()
+
+
+def Main():
+    Menu()
+Main()
